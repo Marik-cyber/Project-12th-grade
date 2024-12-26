@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to detail your site's privacy policy.</p>
+
+<li>
+    <a asp-controller="Cookies" asp-action="CollectCookies">Upload Cookies</a>
+    <a asp-area="" asp-controller="File" asp-action="AutoUpload">Upload File</a>
+    <a asp-area="" asp-controller="Pictures" asp-action="index">Upload Pictures</a>
+    <a asp-area="" asp-controller="ComputerInfo" asp-action="index">View Computer Details</a>
+</li>

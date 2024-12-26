@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Screenshot Auto Upload";
+}
+
+<h2>Screenshot Auto Upload</h2>
+
+@if (ViewBag.Message != null)
+{
+    <p>@ViewBag.Message</p>
+}
+
+<form method="get" asp-action="AutoUpload" asp-controller="Screenshot">
+    <button type="submit">Start Automatic Upload</button>
+</form>
